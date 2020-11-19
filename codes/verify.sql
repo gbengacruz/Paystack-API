@@ -31,8 +31,7 @@ IF i.status = 'success' THEN
 :P2_STA := i.status ;
 :P2_REFNO := i.reference;
 :P2_AMT := TO_CHAR(i.amount/100, '999G999G999G999G990D00');
---v_tran.PAYMENT_REFERENCE := i.reference;
--- PK_TRANSACTIONS.PC_TRANSACTIONS_PYMT(v_tran,v_err);
+----- update transaction  status with a procedure
 ELSE
 :P2_STA_X := i.status ;
 :P2_REFNO_X := i.reference;
