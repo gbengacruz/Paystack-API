@@ -31,7 +31,7 @@ authorization_url VARCHAR2(500) PATH '/row/data/authorization_url',
 access_code VARCHAR2(500) PATH '/row/data/access_code',
 reference VARCHAR2(500) PATH '/row/data/reference')) loop
 :P1_PAY_URL := i.authorization_url ;
------log transaction with a procedure
+-----log transaction with a procedure 
 end loop;
 exception
 when others then
