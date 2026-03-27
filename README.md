@@ -24,7 +24,7 @@
         <li>Page 2 “Payvalidate” process (before region)</li>
         <li>Page 1 “pay_link” process</li>
       </ul>
-      <p>Use the public and secret test keys provided by your Paystack dashboard.</p>
+      <p>Use the public and secret test keys provided by your Paystack dashboard..</p>
     </li>
   </ol>
 </body>
