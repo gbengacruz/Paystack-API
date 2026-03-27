@@ -25,6 +25,7 @@
         <li>Page 1 “pay_link” process</li>
       </ul>
       <p>Use the public and secret test keys provided by your Paystack dashboard.</p>
+      <p>Testing</p>
     </li>
   </ol>
 </body>
